@@ -1,7 +1,7 @@
 body {
 	background-color: rgb(150, 51, 51);
 	color: #fff;
-	font-family: BasisGrotesquePro, sans-serif;
+	font-family: BasisGrotesquePro, monospace;
 	text-align: center;
 }
 ul, ol {
@@ -16,12 +16,13 @@ a {
 nav {
 	overflow: hidden;
 	top: 1%;
-	display: inline;
+	display: inline-block;
+    background-color: black;
 }
 nav a {
 	display: inline-block;
 	padding: 14px 16px;
-	text-align: center;
+	text-align:  ;
 	font-size: 18px;
 	font-weight: 600;
 }
